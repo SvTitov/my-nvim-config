@@ -1,13 +1,17 @@
-source ~/.config/nvim/plugins.vim
-source ~/.config/nvim/nvim-tree.vim
-source ~/.config/nvim/rust-tools.vim
-source ~/.config/nvim/keymap.vim
-source ~/.config/nvim/telescope.vim
-source ~/.config/nvim/cmp.vim
-source ~/.config/nvim/treesitter.vim
-source ~/.config/nvim/vimspector.vim
-source ~/.config/nvim/onedark.vim
-source ~/.config/nvim/indent_blankline.vim
+source ~/AppData/Local/nvim/plugins.vim
+source ~/AppData/Local/nvim/nvim-tree.vim
+source ~/AppData/Local/nvim/rust-tools.vim
+source ~/AppData/Local/nvim/keymap.vim
+source ~/AppData/Local/nvim/telescope.vim
+source ~/AppData/Local/nvim/cmp.vim
+source ~/AppData/Local/nvim/treesitter.vim
+source ~/AppData/Local/nvim/vimspector.vim
+source ~/AppData/Local/nvim/onedark.vim
+source ~/AppData/Local/nvim/indent_blankline.vim
+
+
+set guifont=CodeNewRoman\ Nerd\ Font:h14
+
 
 " let g:rustfmt_autosave = 1 
 let g:syntastic_rust_checkers = ['cargo']

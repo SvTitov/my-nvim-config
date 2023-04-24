@@ -1,5 +1,5 @@
 
-call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 
 Plug 'rust-lang/rust.vim'
 
