@@ -8,6 +8,7 @@ source ~/.config/nvim/treesitter.vim
 source ~/.config/nvim/vimspector.vim
 source ~/.config/nvim/onedark.vim
 source ~/.config/nvim/indent_blankline.vim
+source ~/.config/nvim/lsp.vim
 
 " let g:rustfmt_autosave = 1 
 let g:syntastic_rust_checkers = ['cargo']
