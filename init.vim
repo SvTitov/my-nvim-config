@@ -8,7 +8,7 @@ source ~/AppData/Local/nvim/treesitter.vim
 source ~/AppData/Local/nvim/vimspector.vim
 source ~/AppData/Local/nvim/onedark.vim
 source ~/AppData/Local/nvim/indent_blankline.vim
-
+source ~/AppData/Local/nvim/lsp.vim
 
 set guifont=CodeNewRoman\ Nerd\ Font:h14
 
