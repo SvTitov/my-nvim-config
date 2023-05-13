@@ -21,9 +21,10 @@ set encoding=UTF-8
 :lua require("mason-lspconfig").setup()
 :lua require('nvim-highlight-colors').setup()
 :lua require('hardline').setup {}
+:lua require("autoclose").setup();
 
-inoremap <expr> <cr> 
-   \   getline(".") =~ '\S\s*{$'                 ? "<bs><cr>{<cr>}<esc>O"
-   \ : getline('.') =~ '^\s*{$'                  ? "<cr>}<esc>O" 
-   \ : getline(".")[col(".")-2:col(".")-1]=="{}" ? "<cr><esc>O"
-   \ :                                             "<cr>"
+"inoremap <expr> <cr> 
+"   \   getline(".") =~ '\S\s*{$'                 ? "<bs><cr>{<cr>}<esc>O"
+"   \ : getline('.') =~ '^\s*{$'                  ? "<cr>}<esc>O" 
+"   \ : getline(".")[col(".")-2:col(".")-1]=="{}" ? "<cr><esc>O"
+"   \ :                                             "<cr>"
