@@ -9,12 +9,13 @@ source ~/.config/nvim/vimspector.vim
 source ~/.config/nvim/onedark.vim
 source ~/.config/nvim/indent_blankline.vim
 source ~/.config/nvim/lsp.vim
+source ~/.config/nvim/tagbar.vim
 
 " let g:rustfmt_autosave = 1 
 let g:syntastic_rust_checkers = ['cargo']
 
 set number
-set clipboard+=unnamedplus
+set clipboard=unnamedplus
 set encoding=UTF-8
 
 :lua require("mason").setup()
@@ -22,6 +23,7 @@ set encoding=UTF-8
 :lua require('nvim-highlight-colors').setup()
 :lua require('hardline').setup {}
 :lua require("autoclose").setup();
+
 
 "inoremap <expr> <cr> 
 "   \   getline(".") =~ '\S\s*{$'                 ? "<bs><cr>{<cr>}<esc>O"

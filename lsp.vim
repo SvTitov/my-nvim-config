@@ -11,6 +11,8 @@ lspconfig.rust_analyzer.setup {
   },
 }
 
+lspconfig.csharp_ls.setup{}
+
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions

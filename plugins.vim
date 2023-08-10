@@ -48,4 +48,6 @@ Plug 'lukas-reineke/indent-blankline.nvim'
 
 Plug 'm4xshen/autoclose.nvim'
 
+Plug 'preservim/tagbar'
+
 call plug#end()
